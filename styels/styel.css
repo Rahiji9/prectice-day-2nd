@@ -1,13 +1,54 @@
 /* Poppins font from google*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+ 
 
-*{
-    font-family: "Poppins", sans-serif;
-    font-family: "Poppins", sans-serif;
-    font-family: "Poppins", sans-serif; 
+/* shered-styel */
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-/* header section */
-.header{
+
+
+/* header styel */
+header {
+  padding: 50px 240px;
+}
+
+.nav-title {
+  font-size: 24px;
+}
+
+nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav>ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* banner-----css */
+.banner-title {
+  color: #3A3A3A;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+
+.banner-description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3A3A3A;
 }
